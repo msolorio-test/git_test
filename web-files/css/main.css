@@ -155,7 +155,7 @@ CONTACT
 	height: 71px;
 	position: absolute;
 	top: 0;
-	left: -16px;
+	left: -22px;
 	z-index: 1;
 	transform: skewX(-25deg);
 }
@@ -163,6 +163,15 @@ CONTACT
 /***********************
 MAIN
 ***********************/
+.center-button-outer {position: relative;z-index: 2;border: 7px solid #fff;width: 160px;margin: 0 auto;}
+.center-button-inner {
+	background: #fff;
+	margin: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	height: 42px;
+	line-height: 42px;
+}
 
 /***********************
 SLIDESHOW
