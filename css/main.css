@@ -167,14 +167,13 @@ MAIN
 .main-overlay-img {
 	
 }
-
 .center-button-container {
 	position: relative;
 	z-index: 2;
 	top: 470px;
 	opacity:0;
 	width: 461px;
-	height: 69px;
+	height: 110px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -192,6 +191,7 @@ MAIN
 	height: 68px;
 	line-height: 68px;
 }
+
 
 /***********************
 SLIDESHOW
