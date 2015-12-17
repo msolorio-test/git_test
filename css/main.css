@@ -97,7 +97,7 @@ NAVIGATION
 	.header-nav {
     height: 71px;
     width: 401px;
-    margin-right: 27px;
+    margin-right: 32px;
 }
 	.header-nav-ul {
 
@@ -106,14 +106,25 @@ NAVIGATION
 		float: left;
 	}
 	.header-nav-a {
-	display: block;
-	width: 100px;
-	height: 71px;
-	line-height: 71px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: .9em;
+		display: block;
+		width: 100px;
+		height: 71px;
+		line-height: 71px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: .9em;
+		border-top: 0px solid rgba(255, 215, 0, 0);
+		border-bottom: 0px solid rgba(255, 215, 0, 0);
+		-webkit-transition: all 250ms ease-in-out;
+		-moz-transition:all 250ms ease-in-out;
+		-o-transition:all 250ms ease-in-out;
+		transition:all 250ms ease-in-out;
+	}
+	.header-nav-a:hover {
+		border-top: 7px solid #FFD700;
+		border-bottom: 7px solid #FFD700;
+		line-height: 56px;
 	}
 
 /***********************
@@ -128,6 +139,7 @@ CONTACT
 	text-align: center;
 	font-size: 1.1em;
 	text-transform: uppercase;
+	text-decoration: none;
 	padding-bottom: 12px;
 	position: relative;
 	z-index: 2;
