@@ -163,10 +163,15 @@ CONTACT
 /***********************
 MAIN
 ***********************/
+.main-overlay-container {width: 607px;position: absolute;z-index: 2;}
+.main-overlay-img {
+	
+}
+
 .center-button-container {
 	position: relative;
 	z-index: 2;
-	top: 426px;
+	top: 493px;
 	width: 461px;
 	height: 69px;
 	margin: 0 auto;
