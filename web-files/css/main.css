@@ -151,11 +151,11 @@ CONTACT
 
 }
 .contact-background-skewed {
-	width: 186px;
+	width: 200px;
 	height: 71px;
 	position: absolute;
 	top: 0;
-	left: -22px;
+	left: -24px;
 	z-index: 1;
 	transform: skewX(-25deg);
 }
@@ -163,14 +163,28 @@ CONTACT
 /***********************
 MAIN
 ***********************/
-.center-button-outer {position: relative;z-index: 2;border: 7px solid #fff;width: 160px;margin: 0 auto;}
+.center-button-container {
+	position: relative;
+	z-index: 2;
+	top: 426px;
+	width: 461px;
+	height: 69px;
+	margin: 0 auto;
+	text-align: center;
+}
+.center-button-outer {
+	display: inline-block;
+	border: 7px solid #fff;
+	width: 215px;
+	margin: 0 6px;
+}
 .center-button-inner {
 	background: #fff;
 	margin: 4px;
 	text-align: center;
 	text-transform: uppercase;
-	height: 42px;
-	line-height: 42px;
+	height: 68px;
+	line-height: 68px;
 }
 
 /***********************
