@@ -8,18 +8,23 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 
 function slideshow(){
 	$('.slideshow-img').slice(1).hide();
-	/*
 	setInterval(function(){
 		$('.slideshow-img').first().fadeOut(2500)
 		.next().fadeIn(2500)
 		.end()
 		.appendTo('.slideshow-container');
 	}, 4000); //end set interval
-	*/
 } //end function define
 
+function dropCenterButtons(){
+	$('.center-button-container').delay(400).animate(
+		{top:"493px", opacity:1},
+		1200
+	);
+}
 
 //READY
 $(function(){
 	slideshow();
+	dropCenterButtons();
 });
