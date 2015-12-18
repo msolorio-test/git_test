@@ -72,9 +72,13 @@ GRID
 COLORS
 ***********************/
 .text-white {color:#fff;}
-.bg-white {background:#fff;}
+.bg-white {background: #FFF;}
+
 .text-aqua {color:rgba(22,149,162,0.95);}
 .bg-aqua {background:rgba(22,149,162,0.95);}
+
+.text-dark-blue{color: #28494C;}
+.bg-dark-blue{background:#28494C;}
 
 /***********************
 HEADER
@@ -171,7 +175,7 @@ MAIN
 	position: relative;
 	z-index: 2;
 	top: 470px;
-	opacity:0;
+	opacity:1;
 	width: 461px;
 	height: 110px;
 	margin: 0 auto;
@@ -199,7 +203,7 @@ SLIDESHOW
 	.slideshow-container {
 		position:relative;
 		width:100%;
-		padding-bottom:75%;
+		padding-bottom: 57%;
 		height:0;
 	}
 	.slideshow-img {
@@ -208,7 +212,34 @@ SLIDESHOW
 		left:0;
 		width:100%;
 	}
+/***********************
+DIVIDER1
+***********************/
+.divider1 {
+	height: 78px;
+	position: relative;
+	z-index: 3;
+}
+.divider1-h3 {
+	text-align:center;
+	line-height:78px;
+	text-transform:capitalize;
+}
+/***********************
+SECTION2
+***********************/
+.section2 {
+	position:relative;
+	z-index:3;
+	height: 400px;
+}
+.section2-col {
+	float:left;
+	padding: 5% 4% 5%;
+}
+.section2-col-p {
 
+}
 /***********************
 FOOTER
 ***********************/
