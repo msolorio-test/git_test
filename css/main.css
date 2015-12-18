@@ -77,7 +77,7 @@ COLORS
 .text-aqua {color:rgba(22,149,162,0.95);}
 .bg-aqua {background:rgba(22,149,162,0.95);}
 
-.text-dark-blue{color: #28494C;}
+.text-dark-blue{color: #40676B;}
 .bg-dark-blue{background:#28494C;}
 
 /***********************
@@ -235,11 +235,16 @@ SECTION2
 }
 .section2-col {
 	float:left;
-	padding: 5% 4% 5%;
+	padding: 0% 4% 0%;
 }
-.section2-col-p {
-
+.section2-border-wrap {
+	border-left:7px solid #FFD700;
+	border-right:7px solid #FFD700;
+	margin: 6.7% 0 6.7%;
 }
+/*.section2-col.first {border-left: 7px solid #FFD700;}
+.section2-col.second {border-right: 7px solid #FFD700;}*/
+.section2-col-p {padding: 0 0 5%;font-size: 1.9em;}
 /***********************
 FOOTER
 ***********************/
